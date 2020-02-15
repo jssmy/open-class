@@ -54,6 +54,8 @@ function install_guess_wwwroot() {
     }
     $hostport = explode(':', $_SERVER['HTTP_HOST']);
     $wwwroot .= reset($hostport);
+	
+		
     if ($_SERVER['SERVER_PORT'] != 80 and $_SERVER['SERVER_PORT'] != '443') {
         $wwwroot .= ':'.$_SERVER['SERVER_PORT'];
     }

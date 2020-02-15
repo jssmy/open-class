@@ -24,3 +24,5 @@ composer.json
 composer.lock
 behat.yml.dist
 phpunit.xml.dist
+.idea/
+goorm.manifest
